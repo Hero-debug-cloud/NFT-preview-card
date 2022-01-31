@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      background-color:hsl(217, 54%, 11%);
+      margin-top: 5%;
+      margin-left:35%;
+    }
+    .container{
+     
+      height:80vh;
+      width:25vw;
+     
+      border-radius: 20px;
+      background-color:hsl(216, 50%, 16%);
+      display:flex;
+      flex-direction: column;
+
+      /* margin-left:20%; */
+    }
+    .image{
+       /* border:2px solid red; */
+       height:55%;
+       margin-left:8%;
+       margin-right:8%;
+       margin-top:5%;
+       
+    }
+    .image img{
+      height:100%;
+      width:100%;
+      border-radius: 17px;
+    }
+    
+
+    .heading .head{
+      color:hsl(0, 0%, 100%);
+      margin-left:8%;
+      font-weight:600;
+      font-size:22px;
+
+    }
+    .heading .dis{
+      margin-left:8%;
+      display: flex;
+      flex-direction: row;
+      color:hsl(215, 51%, 70%);
+      font-weight: 500;
+      font-size: 17px;;
+    }
+    .show{
+      margin-left:8%;
+      display: flex;
+      flex-direction: row;
+      justify-content:space-between;
+      margin-right:8%;
+      
+
+    }
+
+    .img-1,.img-2{
+      display:flex;
+      /* margin-top: 10p; */
+    }
+    .img1-dis{
+      color: hsl(178, 100%, 50%);
+    }
+    .img2-dis{
+      color:hsl(215, 51%, 70%);
+    }
+    .creater{
+      margin-left:8%;
+      display: flex;
+      flex-direction: row;
+    }
+    .creater img{
+      height:28px;
+      width:28px;
+      border:1px solid white;
+      border-radius: 20px;;
+      
+    }
+    .creater .creater-dis{
+      color:hsl(215, 51%, 70%);
+      margin-top:2%;
+    }
+    .break{
+      width:70%;
+      height:3px;
+      background-color:hsl(215, 32%, 27%);
+      display:block;
+      margin-left:15%;
+      margin-top:20px;
+      margin-bottom:15px;
+    }
+    a{
+      color:white;
+      text-decoration:none;
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+      <div class="image">
+        <img src="images/image-equilibrium.jpg" alt="This is an image">
+      </div>
+      <div class="heading">
+        <p class="head">Equuilibrium #3429</p>
+      <!-- </div> -->
+      <!-- <div class="heading-dis"> -->
+        <p class="dis">Our Equuilibrium collection promotes balance and calm</p>
+      </div>
+      <div class="show">
+        <div class="img-1"> <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg><spam class="img1-dis">&nbsp;0.041 ETH</spam></div>
+        <div class="img-2">
+         
+          <svg width="17" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg><spam class="img2-dis">&nbsp;3 days left</spam>
+        </div>
+      </div>
+      <spam class="break">
+        
+      </spam>
+      <div class="creater">
+         <img src="images/image-avatar.png" alt="This is an image" srcset="">
+        <spam class="creater-dis">&nbsp;&nbsp;&nbsp;&nbsp;Creation of&nbsp; <a href="#"> Jules Wyvern</a></spam> 
+      </div>
+    </div>
+  
+</body>
+</html>
